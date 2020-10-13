@@ -7,7 +7,7 @@
 ## 安装
 
 ```
-composer require xinmoumomo/idcard
+composer require xinmoumomo/idcards
 ```
 
 #### 发布配置
