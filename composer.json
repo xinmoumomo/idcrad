@@ -1,0 +1,33 @@
+{
+    "name": "xinmoumomo/idcard",
+    "description": "身份证识别接口",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "默默",
+            "email": "314557079@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0",
+        "illuminate/database": "^5.5|^6.0|^7.0|^8.0",
+        "illuminate/filesystem": "^5.5|^6.0|^7.0|^8.0",
+        "illuminate/console": "^5.5|^6.0|^7.0|^8.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Xinmoumomo\\Idcard\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xinmoumomo\\Idcard\\IdCardProvider"
+            ]
+        }
+    }
+}
